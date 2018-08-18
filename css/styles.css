@@ -1,0 +1,363 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    color: #1f1f1f;
+    background-color: #ededed;
+    font-family: 'Roboto', sans-serif;  /* Väljer Roboto istället då Fjalla inte har olika font-weights */
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+h1, h2, h3 {
+    display: block;
+    font-weight: bold;
+    margin: 8px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    margin: 1em 8px;
+}
+
+table {
+    margin: 8px;
+}
+
+.member-table {
+    width: calc(100% - 16px);
+    margin: 8px;
+}
+
+.member-table * {
+    display: block;
+}
+
+.member-table thead .member-table-row {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+.member-table-row {
+    border: 1px solid #1f1f1f;
+}
+
+.member-table-row td {
+    border: none;
+    border-bottom: 1px solid #1f1f1f;
+    position: relative;
+    padding-left: 50%;
+}
+
+.member-table-row td:before {
+    position:absolute;
+    left: 8px;
+    width: 45%;
+    padding-right: 12px;
+    white-space: nowrap;
+}
+
+.member-table-row td:nth-of-type(1):before { content: "Förnamn"; }
+.member-table-row td:nth-of-type(2):before { content: "Efternamn"; }
+.member-table-row td:nth-of-type(3):before { content: "Adress"; }
+.member-table-row td:nth-of-type(4):before { content: "Postnummer"; }
+.member-table-row td:nth-of-type(5):before { content: "Postadress"; }
+
+footer {
+    background-color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    border-top: 2px solid #dddddd;
+}
+
+.form-wrapper {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+fieldset {
+    width: 80%;
+    border: 2px solid #1f1f1f;
+    background-color: #ffffff;
+}
+
+label {
+    width: 100%;
+    float: none;
+    text-align: left;
+    display: block;
+}
+
+input, select {
+    width: 16em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.submit-button {
+    margin-left: 0;
+}
+
+.date {
+    font-size: 10px;
+    margin: 0 8px 1em 8px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    margin: 12px auto;
+    width: 80%;
+    text-align: center;
+    display: block;
+}
+
+#navbar {
+    background-color: #ffffff;
+    font-size: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#navbar a {
+    display: inline-block;
+    padding: 6px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar a:hover, #navbar a:focus {
+    background-color: #cdc9c5;
+}
+
+#navbar .active {
+    border-bottom: 2px solid #cdc9c5;
+}
+
+.main-container, .content-container, .photo-container {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-top: 4px solid #ff9933;
+    flex-basis: 100%;
+}
+
+.main-container .img-row, .main-container .img-center {
+    width: 100%;
+    text-align: center;
+}
+
+.img-center img {
+    max-width: 100%;
+}
+
+.main-container .img-row img {
+    height: 170px;
+    margin: auto;
+}
+
+.main-container .img-center img {
+    margin: auto;
+}
+
+.photo-container img {
+    width: 100%;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.header {
+    background-image: url("../img/layout/header.png");
+    background-size: auto;
+    background-position: 70%;
+    background-position-y: 90%;
+    flex-basis: 100%;
+    height: 160px;
+}
+
+.header h1 {
+    position: relative;
+    top: 20%;
+    text-align: center;
+    margin: 0;
+    padding: 0.1em 1em;
+    background-color: rgba(128, 128, 255, 0.2);
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.paragraph-break {
+    white-space: pre-line;
+}
+
+.second {
+    order: 1;
+}
+
+.first {
+    order: 2;
+}
+
+@media only screen and (min-width: 640px) {
+    #navbar a {
+        width: 14.2857%;
+    }
+
+    main {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-wrap: nowrap;
+    }
+
+    fieldset {
+        width: 24em;
+    }
+
+    label {
+        width: 8em;
+        text-align: right;
+        margin-right: 8px;
+        float: left;
+    }
+
+    .member-table {
+        width: 100%;
+        border-collapse: collapse;
+        display: table;
+    }
+
+    .member-table thead, .member-table tbody {
+        display: table;
+        width: calc(100% - 28px);
+    }
+
+    .member-table thead .member-table-row {
+        position: relative;
+    }
+
+    .member-table-row:nth-of-type(odd) {
+        background-color: #cdc9c5;
+    }
+
+    .member-table-row {
+        display: table-row;
+        border: none;
+        width: 100%;
+    }
+
+    .member-table-row th {
+        background-color: #1f1f1f;
+        color: #ffffff;
+        font-weight: 700;
+    }
+
+    .member-table-row td, .member-table-row th {
+        width: 20%;
+        padding: 8px;
+        border: 1px solid #1f1f1f;
+        text-align: left;
+        display: table-cell;
+    }
+
+    .member-table-row td:nth-of-type(1):before { content: ""; }
+    .member-table-row td:nth-of-type(2):before { content: ""; }
+    .member-table-row td:nth-of-type(3):before { content: ""; }
+    .member-table-row td:nth-of-type(4):before { content: ""; }
+    .member-table-row td:nth-of-type(5):before { content: ""; }
+
+    .submit-button {
+        position: relative;
+        width: 8em;
+        left: calc(50% - 4em);
+    }
+
+    main div:first-child {
+        margin-right: 5px;
+    }
+
+    main div:last-child {
+        margin-left: 5px;
+    }
+
+    .content-container {
+        flex-basis: 70%;
+    }
+
+    .photo-container {
+        flex-basis: 30%;
+    }
+
+    .photo-container img {
+        width: 80%;
+        margin: 3px auto 3px auto;
+    }
+
+    .header h1 {
+        min-width: 200px;
+        max-width: 312px;
+        text-align: right;
+    }
+
+    .second {
+        order: 2;
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+    .first {
+        order: 1;
+        margin-right: 5px;
+        margin-left: 0;
+    }
+
+    .photo-container img:first-child {
+        margin-top: 18px;
+    }
+}

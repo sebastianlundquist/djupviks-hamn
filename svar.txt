@@ -1,0 +1,22 @@
+Tillgänglighetstestning
+    * Webbsidorna testades när bilder var otillgängliga.
+        - Webbsidorna behöll en logisk struktur utan bilder.
+    * Webbsidorna testades utan JavaScript.
+        - Webbsidorna fungerar bra förutom att navbaren inte fastnar på toppen av sidan.
+    * Webbsidorna testades utan stilmallar.
+        - Webbsidornas struktur går enkelt att följa även om det inte finns någon CSS.
+
+1.  Det finns inga riktlinjer som är viktigare än andra. WCAG 2.0 är medvetet uppbyggda på ett sådant sätt att vissa
+    kriterier eller funktionsnedsättningar inte ska prioriteras över andra. Man ska inte tillgänglighetsanpassa enligt
+    enskilda riktlinjer. Att säga att exempelvis "Hanterbar" är den viktigaste riktlinjen vore att prioritera
+    tangentbordsanvändare men diskriminera exempelvis synnedsatta. WCAG 2.0 är väldigt tydliga med att detta är
+    otillåtet.
+
+2.  Tillgänglighetsriktlinjer ska följas så långt det är rimligt. Företag i offentlig sektor har lagkrav på sig att
+    uppfylla AA-nivån av WCAG 2.0, men andra företag bör givetvis följa samma riktlinjer så länge de har resurser för
+    det. Min åsikt är just denna; att tillgänglighetsriktlinjer ska följas så långt det är möjligt. Dock finns
+    riktlinjer (t.ex. 1.2.5 Ljudbeskrivning (förinspelad)) som kan vara orimliga att försöka följa. I just detta fall
+    kan det vara svårt att producera alternativa ljudspår till alla videor på ens webbsida om man har ett stort
+    bibliotek med videor, och rent av omöjligt om man själv inte har producerat videoinnehållet (t.ex. YouTube).
+    Exempel som detta, när den mängd resurser som behöver läggas på att uppfylla ett visst kriterum flyter ut i
+    orimligheten, tycker jag är den enda gången man har en ursäkt till att inte följa åtminstone AA-nivån av WCAG 2.0.
