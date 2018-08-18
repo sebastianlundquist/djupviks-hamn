@@ -1,8 +1,8 @@
 Tillgänglighetstestning
     * Webbsidorna testades med aXe.
         - aXe var osäker på om det fanns ett kontrastproblem i h1 eller "titeln" på webbsidorna, då den har
-        semitransparent bakgrund. Bakgrunden ändrades så att den är mindre transparent, 50% vit. Mot svart text borde
-        detta räcka för att uppnå AA-nivån för kontrast.
+        semitransparent bakgrund. Bakgrunden ändrades så att den är mindre transparent, 50% vit. Mot svart räcker detta
+        för att uppnå AA-nivån för kontrast.
         - Vidare upptäckte den att användare av mobile devices inte kan zooma texten upp till 500%, då det i
         meta-taggen är begränsat till 2x. Detta klassificerades dock som en "minor" issue och valdes att ignoreras.
     * Webbsidorna testades genom att navigera dem med tangentbord.
@@ -14,8 +14,8 @@ Tillgänglighetstestning
     * Webbsidorna testades utan stilmallar.
         - Webbsidornas struktur går enkelt att följa även om det inte finns någon CSS.
     * Webbsidorna testades med onlineverktyget WAVE.
-        - Verktyget 0 errors, 0 alerts men 1 contrast error på varje sida, vilket var på sidans h1, eller "titel", då
-        denna är på semitransparent bakgrund.
+        - Verktyget 0 errors, 0 alerts och nu 0 contrast error på varje sida, efter att kontrastproblemet som
+        först upptäcktes med aXe åtgärdats.
 
 1.  Det finns inga riktlinjer som är viktigare än andra. WCAG 2.0 är medvetet uppbyggda på ett sådant sätt att vissa
     kriterier eller funktionsnedsättningar inte ska prioriteras över andra. Man ska inte tillgänglighetsanpassa enligt

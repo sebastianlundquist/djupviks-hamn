@@ -5,16 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../Accessibility Toolbar" beforeDir="false" afterPath="$PROJECT_DIR$/../Accessibility Toolbar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CodingQuestions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingQuestions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dead Goal" beforeDir="false" afterPath="$PROJECT_DIR$/../Dead Goal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/english.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/guest.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/guest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/members.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/svar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/svar.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MineSweeper" beforeDir="false" afterPath="$PROJECT_DIR$/../MineSweeper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../contrastchecker" beforeDir="false" afterPath="$PROJECT_DIR$/../contrastchecker" afterDir="false" />
@@ -64,7 +55,7 @@
           <entry key="css" value="5681" />
           <entry key="html" value="3172" />
           <entry key="js" value="471" />
-          <entry key="txt" value="4457" />
+          <entry key="txt" value="4646" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -72,14 +63,14 @@
           <entry key="CSS" value="5681" />
           <entry key="HTML" value="3172" />
           <entry key="JavaScript" value="471" />
-          <entry key="PLAIN_TEXT" value="4457" />
+          <entry key="PLAIN_TEXT" value="4646" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
@@ -91,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="3842">
               <caret line="226" column="36" lean-forward="true" selection-start-line="226" selection-start-column="36" selection-end-line="226" selection-end-column="36" />
             </state>
           </provider>
@@ -106,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/svar.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="289">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -201,7 +192,6 @@
         <option value="$PROJECT_DIR$/js.html" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/svar.txt" />
         <option value="$PROJECT_DIR$/html/english.html" />
         <option value="$PROJECT_DIR$/html/members.html" />
         <option value="$PROJECT_DIR$/html/contact.html" />
@@ -209,6 +199,7 @@
         <option value="$PROJECT_DIR$/html/guest.html" />
         <option value="$PROJECT_DIR$/html/info.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/svar.txt" />
       </list>
     </option>
   </component>
@@ -290,12 +281,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534580613946</updated>
-      <workItem from="1534580615479" duration="36460000" />
+      <workItem from="1534580615479" duration="37051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36460000" />
+    <option name="totallyTimeSpent" value="37051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -380,20 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="226" column="36" lean-forward="true" selection-start-line="226" selection-start-column="36" selection-end-line="226" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svar.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/english.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -440,6 +417,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="85" column="7" lean-forward="true" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3842">
+          <caret line="226" column="36" lean-forward="true" selection-start-line="226" selection-start-column="36" selection-end-line="226" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svar.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
         </state>
       </provider>
     </entry>
