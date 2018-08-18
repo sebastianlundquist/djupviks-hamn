@@ -1,10 +1,21 @@
 Tillgänglighetstestning
+    * Webbsidorna testades med aXe.
+        - aXe var osäker på om det fanns ett kontrastproblem i h1 eller "titeln" på webbsidorna, då den har
+        semitransparent bakgrund. Bakgrunden ändrades så att den är mindre transparent, 50% vit. Mot svart text borde
+        detta räcka för att uppnå AA-nivån för kontrast.
+        - Vidare upptäckte den att användare av mobile devices inte kan zooma texten upp till 500%, då det i
+        meta-taggen är begränsat till 2x. Detta klassificerades dock som en "minor" issue och valdes att ignoreras.
+    * Webbsidorna testades genom att navigera dem med tangentbord.
+        - Tangentbordsfokus är synligt på alla fokuserbara element och alla element som bör få fokus kan få fokus.
     * Webbsidorna testades när bilder var otillgängliga.
         - Webbsidorna behöll en logisk struktur utan bilder.
     * Webbsidorna testades utan JavaScript.
         - Webbsidorna fungerar bra förutom att navbaren inte fastnar på toppen av sidan.
     * Webbsidorna testades utan stilmallar.
         - Webbsidornas struktur går enkelt att följa även om det inte finns någon CSS.
+    * Webbsidorna testades med onlineverktyget WAVE.
+        - Verktyget 0 errors, 0 alerts men 1 contrast error på varje sida, vilket var på sidans h1, eller "titel", då
+        denna är på semitransparent bakgrund.
 
 1.  Det finns inga riktlinjer som är viktigare än andra. WCAG 2.0 är medvetet uppbyggda på ett sådant sätt att vissa
     kriterier eller funktionsnedsättningar inte ska prioriteras över andra. Man ska inte tillgänglighetsanpassa enligt
@@ -20,3 +31,16 @@ Tillgänglighetstestning
     bibliotek med videor, och rent av omöjligt om man själv inte har producerat videoinnehållet (t.ex. YouTube).
     Exempel som detta, när den mängd resurser som behöver läggas på att uppfylla ett visst kriterum flyter ut i
     orimligheten, tycker jag är den enda gången man har en ursäkt till att inte följa åtminstone AA-nivån av WCAG 2.0.
+
+3.  En kombination av automatiska verktyg samt manuell genomgång av webbsidorna krävs för att få bra täckning.
+    Automatiska verktyg är bra på att upptäcka vissa fel (kontrast, labels, alt-texter etc.) men är sämre på att
+    upptäcka andra fel (som tangentbordsfokus t.ex.). Därför är automatiska verktyg bra att börja med, för att sedan
+    manuellt testa kriterier som dessa verktyg har svårt att utvärdera. När jag snabbt vill kolla tillgängligheten på
+    en site jag har utvecklat brukar jag först använda det automatiska verktyget Axe. Axe finns att installera som en
+    Chrome extension (https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd) och används genom
+    Chrome developer tools, där man snabbt kan köra en analys av vilken sida som helst, även på localhost. Vad som
+    också är bra med detta verktyg är att de graderar hur allvarligt en issue är. Om en issue gör att webbsidan bryter
+    mot WCAG brukar den klassificeras som "critical" eller "serious" och bör åtgärdas. Andra issues kan vara "moderate"
+    eller "minor". Efter denna genomgång brukar jag testa att tabba mig igenom alla sidor och säkerställa att
+    tangentbordsfokus är synligt på alla fokuserbara element samt att alla nås via tangentbord. Dessa två metoder
+    tycker jag tillsammans ger en bra grundutvärdering av tillgängligheten.
